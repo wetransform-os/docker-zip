@@ -125,7 +125,7 @@ jobs:
     with:
       checkout-ref: refs/tags/v${{needs.release.outputs.release-version}} # check out release tag
       tag: ${{needs.release.outputs.release-version}}
-      image: wetransform/docker-zip
+      image: wetransform/zip
     secrets:
       DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
       DOCKER_HUB_PASSWORD: ${{ secrets.DOCKER_HUB_PASSWORD }}
