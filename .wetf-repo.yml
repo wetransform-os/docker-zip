@@ -7,15 +7,15 @@ presets:
   - renovate
   - workflows-default
 
-check:
-  inputs:
-    image: wetransform/zip
-
-publish:
-  inputs:
-    image: wetransform/zip
-
-release:
-  inputs:
-    image: wetransform/zip
-
+workflows:
+  check:
+    inputs:
+      image: wetransform/zip
+  
+  publish:
+    inputs:
+      image: wetransform/zip
+  
+  release:
+    inputs:
+      image: wetransform/zip
