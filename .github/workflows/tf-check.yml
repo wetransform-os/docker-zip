@@ -13,5 +13,5 @@ jobs:
   check:
     uses: wetransform/gha-workflows/.github/workflows/dockerfile-build.yml@39472b0820006f75ebd19b348939b163d7bd8a6a # v3.3.2
     with:
-      image: wetransform/docker-zip
+      image: wetransform/zip
       tag: pr
