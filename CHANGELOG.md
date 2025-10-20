@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/wetransform-os/docker-zip/compare/v1.0.0...v1.0.1) (2025-10-20)
+
+### Bug Fixes
+
+* base image updates are fixes ([c9679ab](https://github.com/wetransform-os/docker-zip/commit/c9679ab1c868989e8a84a15eab6c49a3486679ec))
+
 ## 1.0.0 (2024-11-29)
 
 ### Features
