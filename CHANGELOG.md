@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/wetransform-os/docker-zip/compare/v1.0.2...v1.0.3) (2026-01-05)
+
+### Bug Fixes
+
+* **deps:** update alpine docker tag to v3.23.2 ([6fb2863](https://github.com/wetransform-os/docker-zip/commit/6fb2863458d43a157bb3ed0a9128d54983e5e7ee))
+
 ## [1.0.2](https://github.com/wetransform-os/docker-zip/compare/v1.0.1...v1.0.2) (2025-12-05)
 
 ### Bug Fixes
